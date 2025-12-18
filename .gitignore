@@ -1,0 +1,78 @@
+##################################
+# General
+##################################
+.DS_Store
+Thumbs.db
+*.log
+
+##################################
+# Node.js
+##################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.env
+.venv/
+venv/
+botenv/
+pip-wheel-metadata/
+
+##################################
+# FastAPI / Uvicorn
+##################################
+*.pid
+
+##################################
+# Audio / Temp files
+##################################
+*.wav
+*.mp3
+*.ogg
+*.pcm
+*.raw
+tmp*
+temp*
+*.tmp
+
+##################################
+# Models (large files – do NOT commit)
+##################################
+*.onnx
+*.pt
+*.bin
+models/
+voices/
+
+##################################
+# Piper / Whisper caches
+##################################
+piper/
+whisper_cache/
+faster_whisper_cache/
+
+##################################
+# IDEs
+##################################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+##################################
+# Secrets
+##################################
+.env
+.env.local
+.env.production
